@@ -78,3 +78,17 @@ main div.jp-youtube-video iframe {
   width: 100%;
   height: 100%;
 }
+@media (max-width: 768px) {
+  header.bd-header {
+    flex-wrap: wrap;
+    min-height: auto;
+  }
+
+  header.bd-header .navbar-brand {
+    flex: 1 1 auto;
+  }
+
+  header.bd-header .bd-navbar {
+    flex-wrap: wrap;
+  }
+}
